@@ -1,7 +1,7 @@
 # github-identicon
 GitHub's [identicon](https://github.blog/news-insights/company-news/identicons/) algorithm written in JS, crudely ported from https://github.com/dgraham/identicon
 
-<img width="420" height="420" alt="identicon" src="https://github.com/user-attachments/assets/81523432-0891-4b3e-89f6-2d0eb7baea31" />
+<img width="420" height="420" alt="identicon" src="https://github.com/identicons/memo.png" />
 
 ## Install
 ```

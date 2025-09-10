@@ -1,5 +1,5 @@
 {
-  "name": "@mallory/identicon",
+  "name": "github-identicon",
   "version": "1.0.0",
   "description": "GitHub's identicon algorithm written in JS",
   "type": "module",
