@@ -14,6 +14,7 @@ const hslToRgb = (h, s, l) => {
             t < 0.5 ? q :
             t < 2/3 ? p + (q - p) * (2/3 - t) * 6 : p;
     };
+
     return [f(h + 1/3), f(h), f(h - 1/3)].map(v => Math.round(v * 255));
 };
 
@@ -50,6 +51,7 @@ const identicon = (value, size = 420) => {
 
     pixels.forEach((on, index) => {
         if (!on) return;
+        
         const x = (index % 5) * pixelSize + margin;
         const y = Math.floor(index / 5) * pixelSize + margin;
         ctx.fillRect(x, y, pixelSize, pixelSize);
