@@ -20,4 +20,4 @@ writeFileSync(`${id}.png`, icon);
 ```
 
 ## Notes
-GitHub's identicons are taken from the ID of the account, not the username of it. Technically you 
+GitHub's identicons are taken from the ID of the account, not the username of it. Technically you can use anything other than a number, but it has no real value.
